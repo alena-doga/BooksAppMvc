@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="203" id="A1U-Ey-Dl9" customClass="BookTableViewCell" customModule="BooksAppMvc" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="610" height="189"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A1U-Ey-Dl9" id="ntQ-17-xt5">
+                <rect key="frame" x="0.0" y="0.0" width="610" height="189"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uu7-Hx-2wF">
+                        <rect key="frame" x="0.0" y="10" width="150" height="160"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="wPw-l0-b92"/>
+                            <constraint firstAttribute="height" constant="160" id="x1z-b8-61u"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Поворот Ключа" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hi7-BO-VYs">
+                        <rect key="frame" x="155" y="5" width="109" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Автор" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apT-Ma-IHP">
+                        <rect key="frame" x="269" y="5" width="42" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Впечатление" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwH-Pr-DWW">
+                        <rect key="frame" x="155" y="26.999999999999996" width="435" height="14.333333333333332"/>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Моя оцінка:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9g-Pb-hRS">
+                        <rect key="frame" x="20" y="175" width="78.666666666666671" height="17"/>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Моя оценка" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCH-Fq-CSx">
+                        <rect key="frame" x="103.66666666666666" y="175" width="501.33333333333337" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <color key="textColor" red="0.27450980390000002" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2024 рік" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRu-MK-uO2">
+                        <rect key="frame" x="348.66666666666669" y="163" width="241.33333333333331" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="1E8-ch-45n"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uu7-Hx-2wF" firstAttribute="top" secondItem="ntQ-17-xt5" secondAttribute="top" constant="10" id="0O4-Qa-0I7"/>
+                    <constraint firstItem="uu7-Hx-2wF" firstAttribute="leading" secondItem="ntQ-17-xt5" secondAttribute="leading" id="4bs-3m-ONC"/>
+                    <constraint firstItem="Hi7-BO-VYs" firstAttribute="leading" secondItem="uu7-Hx-2wF" secondAttribute="trailing" constant="5" id="Aro-nw-A6Y"/>
+                    <constraint firstAttribute="trailing" secondItem="rwH-Pr-DWW" secondAttribute="trailing" constant="20" id="FL9-mz-s5v"/>
+                    <constraint firstAttribute="trailing" secondItem="dCH-Fq-CSx" secondAttribute="trailing" constant="5" id="IMW-lm-V0E"/>
+                    <constraint firstItem="rwH-Pr-DWW" firstAttribute="top" secondItem="Hi7-BO-VYs" secondAttribute="bottom" constant="5" id="Ka1-Tc-yRn"/>
+                    <constraint firstItem="V9g-Pb-hRS" firstAttribute="leading" secondItem="ntQ-17-xt5" secondAttribute="leading" constant="20" id="M2o-z0-gry"/>
+                    <constraint firstItem="V9g-Pb-hRS" firstAttribute="top" secondItem="uu7-Hx-2wF" secondAttribute="bottom" constant="5" id="MkF-U5-p8q"/>
+                    <constraint firstAttribute="bottom" secondItem="fRu-MK-uO2" secondAttribute="bottom" constant="10" id="QPe-0m-zfn"/>
+                    <constraint firstItem="dCH-Fq-CSx" firstAttribute="leading" secondItem="V9g-Pb-hRS" secondAttribute="trailing" constant="5" id="RSD-t9-w5Z"/>
+                    <constraint firstItem="rwH-Pr-DWW" firstAttribute="leading" secondItem="uu7-Hx-2wF" secondAttribute="trailing" constant="5" id="cYo-mg-69i"/>
+                    <constraint firstAttribute="trailing" secondItem="fRu-MK-uO2" secondAttribute="trailing" constant="20" id="eRZ-Wb-d3u"/>
+                    <constraint firstItem="apT-Ma-IHP" firstAttribute="baseline" secondItem="Hi7-BO-VYs" secondAttribute="baseline" id="ggG-Tp-zbM"/>
+                    <constraint firstItem="fRu-MK-uO2" firstAttribute="leading" secondItem="V9g-Pb-hRS" secondAttribute="trailing" constant="250" id="j47-UD-cvC"/>
+                    <constraint firstItem="apT-Ma-IHP" firstAttribute="leading" secondItem="Hi7-BO-VYs" secondAttribute="trailing" constant="5" id="jZy-Co-WWJ"/>
+                    <constraint firstItem="Hi7-BO-VYs" firstAttribute="top" secondItem="ntQ-17-xt5" secondAttribute="top" constant="5" id="lkp-MR-dUV"/>
+                    <constraint firstItem="dCH-Fq-CSx" firstAttribute="top" secondItem="uu7-Hx-2wF" secondAttribute="bottom" constant="5" id="s7b-vr-aQH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tableAuthor" destination="apT-Ma-IHP" id="79E-Wi-ESQ"/>
+                <outlet property="tableGrade" destination="dCH-Fq-CSx" id="9Hf-Df-tJX"/>
+                <outlet property="tableImage" destination="uu7-Hx-2wF" id="GyN-BK-RgG"/>
+                <outlet property="tableImpression" destination="rwH-Pr-DWW" id="sOz-Zd-WIc"/>
+                <outlet property="tableTitle" destination="Hi7-BO-VYs" id="3YM-bZ-V2Z"/>
+                <outlet property="tableYear" destination="fRu-MK-uO2" id="43Z-ZA-lMA"/>
+            </connections>
+            <point key="canvasLocation" x="270.2290076335878" y="-108.80281690140846"/>
+        </tableViewCell>
+    </objects>
+</document>
